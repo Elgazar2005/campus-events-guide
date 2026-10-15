@@ -1,30 +1,22 @@
 # Campus Events Guide
 
-A responsive campus events website built using HTML5 and CSS3 only.
+**GitHub Repository:** [View Project on GitHub](https://github.com/Elgazar2005/campus-events-guide)
 
-## Features
-- Home page featuring campus events.
-- Event catalogue with posters and categories.
-- Event details page with an agenda and review form.
-- Responsive event timetable.
-- Registration form with HTML5 validation.
-- Responsive layouts using Flexbox and CSS Grid.
-- CSS-only dark mode toggle.
-- Shared navigation and social links across all pages.
+A responsive campus events website built using HTML5 and CSS3.
+
+## Pages
+- Home
+- Events Catalogue
+- Event Details
+- Event Schedule
+- Registration
 
 ## Technologies
 - HTML5
 - CSS3
 - Flexbox
 - CSS Grid
-- Responsive Media Queries
-
-## Pages
-- `index.html`
-- `events.html`
-- `event-details.html`
-- `schedule.html`
-- `registration.html`
+- Responsive Design
 
 ## How to Run
-Clone the repository and open `index.html` in your browser.
+Open `index.html` in your browser to explore the website.
