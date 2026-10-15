@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Event Registration | Campus Events Guide</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left">
+          <h1>
+            <a href="./index.html">📅 Campus Events Guide</a>
+          </h1>
+        </div>
+        <div class="center">
+          <h2>
+            <a href="./index.html">Home</a>
+            <a href="./events.html">Events</a>
+            <a href="./schedule.html">Schedule</a>
+            <a href="./registration.html">Registration</a>
+          </h2>
+        </div>
+        <div>
+          <button type="button">Dark Mode</button>
+        </div>
+      </nav>
+    </header>
+    <main class="registration-main">
+      <div class="registration-heading">
+        <h2>Event Registration</h2>
+        <p>
+          Join our campus events! Fill out the form below to reserve
+          your spot.
+        </p>
+      </div>
+      <form class="registration-form" action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first_name"
+              placeholder="Enter your first name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last_name"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="student-id">Student ID</label>
+          <input
+            type="text"
+            id="student-id"
+            name="student_id"
+            placeholder="Enter your student ID"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="event">Choose an Event</label>
+          <select id="event" name="event" required>
+            <option value="" disabled selected>
+              Select an event
+            </option>
+            <option value="ai-workshop">
+              Artificial Intelligence Workshop
+            </option>
+            <option value="music-festival">
+              Music & Arts Festival
+            </option>
+            <option value="tech-conference">
+              Technology Conference
+            </option>
+            <option value="career-day">
+              Career Day
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="study-year">Academic Year</label>
+          <select id="study-year" name="study_year" required>
+            <option value="" disabled selected>
+              Select your academic year
+            </option>
+            <option value="first">First Year</option>
+            <option value="second">Second Year</option>
+            <option value="third">Third Year</option>
+            <option value="fourth">Fourth Year</option>
+            <option value="graduate">Graduate</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+          />
+        </div>
+        <div class="form-group">
+          <label for="notes">Additional Notes</label>
+          <textarea
+            id="notes"
+            name="notes"
+            rows="4"
+            placeholder="Anything you would like us to know?"
+          ></textarea>
+        </div>
+
+        <div class="form-checkbox">
+          <input
+            type="checkbox"
+            id="agreement"
+            name="agreement"
+            required
+          />
+          <label for="agreement">
+            I confirm that the information provided is correct.
+          </label>
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit" class="submit-btn">
+            Register Now
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="navbar">
+      <div class="left">
+        <h1>
+          <a href="./index.html">Campus Events Guide</a>
+        </h1>
+      </div>
+      <div class="social-icons center">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="center end">
+        <a href="#">Connect</a>
+        <a href="#">Learn</a>
+        <a href="#">Grow</a>
+      </div>
+    </footer>
+  </body>
+</html>
